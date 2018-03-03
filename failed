@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+
+RUBY=/usr/bin/env ruby
+DIR=./apartment-finder
+FROM=example@example.com
+TO=example1@example.com,example2@example.com
+
+$RUBY $DIR/email_failure_notice.rb $DIR/secret $FROM $TO

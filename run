@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+
+RUBY=/usr/bin/env ruby
+DIR=.apartment-finder
+MIN=1000
+MAX=5000
+OPTIONS="bedrooms=1&availabilityMode=0&housing_type=1&housing_type=6&laundry=1&laundry=2&laundry=3&laundry=4&"
+FROM=example@example.com
+TO=example1@example.com,example2@example.com
+
+$RUBY $DIR/scraper.rb sfbay sfc $MIN $MAX $OPTIONS $DIR/listings | $RUBY $DIR/email.rb $DIR/secret $FROM $TO

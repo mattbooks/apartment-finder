@@ -17,6 +17,9 @@ GEM
       domain_name (~> 0.5)
     http-form_data (2.0.0)
     http_parser.rb (0.6.0)
+    mail (2.7.0)
+      mini_mime (>= 0.1.1)
+    mini_mime (1.0.0)
     mini_portile2 (2.3.0)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
@@ -36,6 +39,7 @@ PLATFORMS
 DEPENDENCIES
   dhash-vips
   http
+  mail
   nokogiri
   tf-idf-similarity
 

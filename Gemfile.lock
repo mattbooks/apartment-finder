@@ -1,8 +1,9 @@
 GEM
+  remote: https://rubygems.org/
   specs:
-    mini_portile2 (2.1.0)
-    nokogiri (1.7.0.1)
-      mini_portile2 (~> 2.1.0)
+    mini_portile2 (2.3.0)
+    nokogiri (1.8.2)
+      mini_portile2 (~> 2.3.0)
     tf-idf-similarity (0.1.6)
       unicode_utils (~> 1.4)
     unicode_utils (1.4.0)
